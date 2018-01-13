@@ -1,3 +1,12 @@
+terraform {
+  backend "s3" {
+    bucket = "demo-iac-terraform"
+    key = "infrastructure"
+    region = "us-east-1"
+    profile = "simplicity"
+  }
+}
+
 provider "aws" {
   region = "${var.region}"
   access_key = "${var.access_key}"

@@ -7,9 +7,9 @@ variable "cidr_block" {
 }
 
 variable "subnet_cidr_blocks" {
-  type = "string"
+  type = "map"
 }
 
 variable "availability_zones" {
-  type = "string"
+  type = "list"
 }

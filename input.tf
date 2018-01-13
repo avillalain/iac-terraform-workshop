@@ -19,11 +19,11 @@ variable "region" {
 }
 
 variable "subnet_cidr_blocks" {
-  type = "string"
+  type = "map"
 }
 
 variable "availability_zones" {
-  type = "string"
+  type = "list"
 }
 
 variable "min_size" {

@@ -25,3 +25,15 @@ variable "subnet_cidr_blocks" {
 variable "availability_zones" {
   type = "string"
 }
+
+variable "min_size" {
+  type = "string"
+}
+
+variable "max_size" {
+  type = "string"
+}
+
+variable "desired_capacity" {
+  type = "string"
+}

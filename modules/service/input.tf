@@ -1,28 +1,16 @@
-variable "secret_key" {
+variable "ami_id" {
   type = "string"
 }
 
-variable "access_key" {
+variable "user_data" {
   type = "string"
 }
 
-variable "cidr_block" {
+variable "vpc_id" {
   type = "string"
 }
 
-variable "vpc_name" {
-  type = "string"
-}
-
-variable "region" {
-  type = "string"
-}
-
-variable "subnet_cidr_blocks" {
-  type = "string"
-}
-
-variable "availability_zones" {
+variable "subnet_ids" {
   type = "string"
 }
 

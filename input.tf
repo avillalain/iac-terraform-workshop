@@ -17,3 +17,11 @@ variable "vpc_name" {
 variable "region" {
   type = "string"
 }
+
+variable "subnet_cidr_blocks" {
+  type = "string"
+}
+
+variable "availability_zones" {
+  type = "string"
+}
